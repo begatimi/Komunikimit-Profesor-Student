@@ -1,0 +1,19 @@
+<div class="new-post">
+	<form action="discussions.php" method="post">
+		<label>Post Type:</label>
+		<input type="radio" name="post-type" value="note"> Note
+		<input type="radio" name="post-type" value="question"> Question
+		
+		<label>Post To:</label>
+		<input type="radio" name="post-to" value="entireclass"> Entire Class
+		<input type="radio" name="post-to" value="instructors"> Instructors
+		
+		<label>Title:</label>
+		<input type="text" name="title" placeholder="Title">
+		
+		<label>Message:</label>
+		<textarea placeholder="Write your message here"name="message"></textarea>
+		
+		<button type="submit" name="btn-newpost" style="margin-top: 20px; display: block">Post</button>		
+	</form>
+</div>
